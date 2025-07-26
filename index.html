@@ -121,7 +121,16 @@
       <p>
         © 2025 JAVI'S CYBER SPACE - BEST VIEWED WITH NETSCAPE NAVIGATOR 4.0+
       </p>
-      <p class="date">VISITOR COUNT: 1,337,420 | LAST UPDATED:&nbsp;</p>
+      <p class="date">
+        VISITOR COUNT: 1,337,420 | LAST UPDATED:&nbsp;<span
+          id="deploy-date"
+        ></span>
+      </p>
+      <script src="deploy-date.js"></script>
+      <script>
+        document.getElementById("deploy-date").textContent =
+          typeof DEPLOY_DATE !== "undefined" ? DEPLOY_DATE : "unknown";
+      </script>
       <p>UNDER CONSTRUCTION SINCE 1996</p>
     </footer>
   </body>

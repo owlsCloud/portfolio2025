@@ -1,3 +1,9 @@
+function addDeployDate() {
+  const currDate = "7/26/2025";
+  const dateTag = document.querySelector(".date");
+  dateTag.append(currDate);
+}
+
 // Matrix rain effect
 function createMatrixRain() {
   const matrixBg = document.getElementById("matrixBg");
@@ -69,7 +75,7 @@ document.addEventListener("DOMContentLoaded", () => {
   createMatrixRain();
   addGlitchEffect();
   createCursorTrail();
-
+  addDeployDate();
   // Add some random glitch effects
   setInterval(() => {
     const randomElement =
@@ -83,10 +89,6 @@ document.addEventListener("DOMContentLoaded", () => {
       }, 50);
     }
   }, 3000);
-
-  const currDate = new Date();
-  const dateTag = document.querySelector(".date");
-  dateTag.append(currDate.toLocaleDateString());
 });
 
 // Add some retro sound effects (visual only)
