@@ -1,9 +1,9 @@
-function addDeployDate() {
+/* function addDeployDate() {
   const currDate = "7/26/2025";
   const dateTag = document.querySelector(".date");
   dateTag.append(currDate);
 }
-
+*/
 // Matrix rain effect
 function createMatrixRain() {
   const matrixBg = document.getElementById("matrixBg");
