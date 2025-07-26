@@ -1,1 +1,1 @@
-const DEPLOY_DATE = "2025-07-26";
+const DEPLOY_DATE = "07-26-2025";
