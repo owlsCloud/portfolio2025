@@ -5,7 +5,22 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+a {
+  text-decoration: none;
+}
+.repo-link {
+  color: #00ffff;
+  padding: 5px;
+}
+.repo-link:hover {
+  border-color: #00ffff;
+  background: rgba(0, 255, 255, 0.1);
+  box-shadow: 0 0 15px #00ffff;
+  transform: scale(1.5);
+}
+.repo-summary {
+  color: #00ffff;
+}
 body {
   background: linear-gradient(45deg, #000428, #004e92);
   font-family: "VT323", monospace;
